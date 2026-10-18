@@ -19,10 +19,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - os: macos-latest        # Apple Silicon (M1/M2/M3/M4)
+          - os: macos-latest        # Apple silicon Macs (M1 and newer)
             label: apple-silicon
-          - os: macos-15-intel      # Intel Macs
-            label: intel
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4

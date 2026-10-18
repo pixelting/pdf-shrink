@@ -9,11 +9,9 @@ A small, free Mac app that makes PDFs smaller. Pick one PDF or a whole folder, s
 
 ## Install (about a minute)
 
-1. Open the **[Releases page](../../releases/latest)** and download the right `.dmg`:
-   - **`PDF-Shrink-apple-silicon.dmg`**: Macs from late 2020 onward (M1, M2, M3, M4…)
-   - **`PDF-Shrink-intel.dmg`**: older Intel Macs
+1. Open the **[Releases page](../../releases/latest)** and download **`PDF-Shrink-apple-silicon.dmg`**.
 
-   Not sure which one? Click the Apple menu → **About This Mac**. If it says *Chip: Apple M…* choose Apple silicon; if it says *Processor: Intel…* choose Intel.
+   This app is for Macs with **Apple silicon** (M1 or newer, from late 2020 onward). To check, click the Apple menu → **About This Mac**: it should say *Chip: Apple M…* (or another Apple chip). Older Intel Macs aren't supported.
 2. Open the `.dmg` and drag **PDF Shrink** onto the **Applications** shortcut.
 3. Open **PDF Shrink** from Applications.
 
@@ -80,7 +78,7 @@ git tag v1.0.0
 git push origin v1.0.0
 ```
 
-A few minutes later the Apple-silicon and Intel `.dmg` files appear on the Releases page. Every normal push also runs the tests and builds the app as a downloadable artifact on the Actions tab.
+A few minutes later the `.dmg` file appears on the Releases page. Every normal push also runs the tests and builds the app as a downloadable artifact on the Actions tab.
 
 ## License
 
